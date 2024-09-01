@@ -44,6 +44,7 @@ def main():
         for asteroid in asteroids:
             if asteroid.collision_detected(player):
                 print("Game over!")
+                pygame.quit()
                 sys.exit()
 
         pygame.display.flip()
