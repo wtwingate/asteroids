@@ -1,5 +1,4 @@
 import pygame
-
 from constants import (
     PLAYER_RADIUS,
     PLAYER_SPEED,
